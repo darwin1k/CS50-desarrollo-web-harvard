@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Forms</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            background-color: greenyellow;
+            width: auto;
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1> Formulario de prueba!
@@ -24,7 +36,47 @@
             <input name ="animal" type="radio" value ="dog "> 🐕  
             <input name = "animal" type="radio" value ="cat"> 🐈 
         </div>
+        <br> </br>
+        <h2>
+         Esto es una prueba de lista
+        </h2>
+        <div>
+            <input name="country" list="countries"  placeholder="country">
+            <datalist   id="countries">
+                <option value="chile">
+                <option value="argentina">
+                <option value="bolivia">
+                <option value="brasil">  
+                </option>
+                </datalist>
+        </div>
         <input type="submit">
     </form>
+    <br> </br>
+    <h2>
+        Esto es una tabla de prueba.
+    </h2>
+    <table>
+        <thead>
+            <th>nombres</th>
+            <th>peso</th>
+            <th>altura</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>darwin</td>
+                <td>80kg</td>
+                <td>1.8mts</td>
+            </tr>
+            <tr>
+                <td>camilo</td>
+                <td>90kg</td>
+                <td>1.7mts</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>
+        agregando una ventana
+    </h2>
 </body>
 </html>
